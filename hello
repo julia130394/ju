@@ -1,0 +1,10 @@
+'Hi, this is Julia'
+
+sum_var = 9
+items = [1,9,7,8,2]
+results = list()
+for i in range(0,len(items),1):
+    for j in range(i+1,len(items),1):
+        if items[i] + items[j] ==sum_var:
+            results.append([items[i], items[j]])
+results
